@@ -1,0 +1,112 @@
+@charset "utf-8";
+body {
+	background: #60E69A url( "images/blackgooseshadow.png") no-repeat center 100px fixed;
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+}
+header {
+	margin-top: 0;
+	padding: .5em 1em .5em 1em;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .6);
+}
+
+
+nav {
+	text-align: center;
+	background-color: rgba(255, 255, 255, .8);
+	border-style: outset;
+	border-width: 10px;
+}
+
+.bginfo {
+	padding: .5em 1em .5em 1em;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .6);
+}
+
+
+a {
+	color: #993399;
+  text-decoration: none;
+}
+
+a:visited {
+		color: #937393;
+	}
+	
+a:focus, a:hover {
+		color: #C700F2;
+		background-color: #fff;
+	}
+	
+a:active {
+		color: #f0f;
+		background-color: #fff;
+	}
+
+h1 {
+	color: #993399;
+ 	font: bold italic 3em Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+ 	text-shadow: .1em .1em .2em #936AFF;
+}
+h2 {
+	color: #cc6600;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+	text-align: center;
+	list-style-position: inside;
+}
+
+
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+p.warning, sup {
+  font-size: small;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+
+.review {
+	padding: 5px 15px 30px 15px;
+	background-color: rgba(255, 255, 255, .8);
+	border-style: ridge;
+	border-color: #008C41;
+	border-width: 5px;
+}
+
+.cookingPic {
+	float: right;
+	margin: 0px 12px;
+}
