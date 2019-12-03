@@ -1,0 +1,149 @@
+@charset "utf-8";
+body {
+	background: url("images/background.png") no-repeat center fixed;
+	font-family: serif;
+  }
+
+.clearboth {
+	clear: both;
+}
+
+.container {
+	background: url("images/containerImage.png") no-repeat center fixed;
+	width: 980px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+header {
+    background-color: rgba(255,73,178,0.50);
+	padding: 20px 30px;
+}
+
+.banner {
+	background-image: url("images/banner.png");
+	height: 200px;
+	margin: 0px auto;
+	text-align: center;
+	color: darkblue;
+}
+
+.banner h1 {
+	padding: 60px;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px;
+	font-size: 300%;
+	font-family: 'Calistoga', cursive;
+	color: darkblue;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Calistoga', cursive;
+	margin: 30px auto;
+	color: darkblue;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 30px;
+}
+
+ul {
+	display: inline block;
+	text-align: left;
+}
+
+.social {
+	border-style: outset;
+	border-color: pink;
+	border-width: 10px;
+	background-color: rgba(255,255,255,0.55);
+	padding: 15px;
+}
+
+.social img {
+	padding: 20px;
+}
+
+.social h2 {
+	text-decoration: underline;
+}
+
+.skills {
+	background-color: rgba(179,0,205,0.60);
+	width: 430px;
+	height: 400px;
+	border-style: outset;
+	border-width: 30px;
+	border-color: rgba(114,0,131,0.60);
+	color: white;
+	float: left;
+}
+
+.skills h2 {
+	color: white;
+}
+
+.learned {
+	background-color: rgba(26,0,205,0.60);
+	width: 430px;
+	height: 400px;
+	border-style: outset;
+	border-width: 30px;
+	border-color: rgba(114,0,131,0.60);
+	color: white;
+	float: right;
+}
+
+.learned h2 {
+	color: white;
+}
+
+.browse {
+	float: left;
+	margin: 0px auto;
+	padding: 5px 50px;
+}
+
+.magik {
+	float: left;
+	margin: 0px auto;
+	padding: 5px 50px;
+}
+
+.maiden {
+	float: left;
+	margin: 0px auto;
+	padding: 5px 50px;
+}
+
+.pierrot {
+	float: right;
+	margin: 0px auto;
+	padding: 5px 50px;
+}
+
+.honey {
+	float: right;
+	margin: 0px auto;
+	padding: 5px 50px;
+}
+
+.wine {
+	float: right;
+	margin: 0px auto;
+	padding: 5px 50px;
+}
+
+.gallery {
+	border-style: ridge;
+	border-width: 20px;
+	border-color: purple;
+}
